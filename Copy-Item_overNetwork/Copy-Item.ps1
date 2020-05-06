@@ -1,8 +1,8 @@
-$HostNames_path = "\\insim.biz\cre-cz\Groups\EUC\TEMP\COPY-ITEM\import_hostnames_10_11.csv"   ### target path to .csv
-$target_file_path = "\\insim.biz\cre-cz\Groups\EUC\TEMP\COPY-ITEM\tnsnames.ora"         ### target path to file
+$HostNames_path = "path"                                            ### target path to .csv
+$target_file_path = "path"                                          ### target path to file
 $report_name = Get-Date -UFormat "%Y-%m-%d-%A-%Hh-%Mm"                                  
-$report_path = "\\insim.biz\cre-cz\Groups\EUC\TEMP\COPY-ITEM\$report_name.txt"          ### target path to report
-$report_path2 = "\\insim.biz\cre-cz\Groups\EUC\TEMP\COPY-ITEM\Failed\$report_name.txt"  ### target Failed path to report
+$report_path = "path"                                               ### target path to report
+$report_path2 = "path"                                              ### target Failed path to report
 
 $hostNames = Import-Csv -Path $hostNames_path
 
